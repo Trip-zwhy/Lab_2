@@ -84,7 +84,3 @@ src/
 ├── main.tsx            # App entry point
 └── index.css           # Global styles
 ```
-
-## License
-
-MIT License
