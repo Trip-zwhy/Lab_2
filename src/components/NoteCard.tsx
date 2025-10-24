@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import { FC } from 'react';
 import { Note } from '../types/Note';
 import { Edit, Trash2, Calendar, Tag } from 'lucide-react';
 

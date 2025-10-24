@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import { FC } from 'react';
 import { FileText, Plus } from 'lucide-react';
 
 interface EmptyStateProps {

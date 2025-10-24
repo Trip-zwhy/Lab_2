@@ -1,4 +1,4 @@
-import React, { useState, useEffect, FC } from 'react';
+import { useState, useEffect, FC } from 'react';
 import { Note, NoteFormData } from '../types/Note';
 import { X, Tag } from 'lucide-react';
 
