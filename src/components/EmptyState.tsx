@@ -1,11 +1,11 @@
-import React from 'react';
+import React, { FC } from 'react';
 import { FileText, Plus } from 'lucide-react';
 
 interface EmptyStateProps {
   onCreateNote: () => void;
 }
 
-export const EmptyState: React.FC<EmptyStateProps> = ({ onCreateNote }) => {
+export const EmptyState: FC<EmptyStateProps> = ({ onCreateNote }) => {
   return (
     <div className="text-center py-12">
       <div className="mx-auto w-24 h-24 bg-gray-100 rounded-full flex items-center justify-center mb-6">

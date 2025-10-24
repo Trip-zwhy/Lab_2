@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { FC } from 'react';
 import { Search, X } from 'lucide-react';
 
 interface SearchBarProps {
@@ -7,7 +7,7 @@ interface SearchBarProps {
   placeholder?: string;
 }
 
-export const SearchBar: React.FC<SearchBarProps> = ({ 
+export const SearchBar: FC<SearchBarProps> = ({ 
   value, 
   onChange, 
   placeholder = "Search notes..." 

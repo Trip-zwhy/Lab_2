@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { FC } from 'react';
 import { Note } from '../types/Note';
 import { Edit, Trash2, Calendar, Tag } from 'lucide-react';
 
@@ -8,7 +8,7 @@ interface NoteCardProps {
   onDelete: (id: string) => void;
 }
 
-export const NoteCard: React.FC<NoteCardProps> = ({ note, onEdit, onDelete }) => {
+export const NoteCard: FC<NoteCardProps> = ({ note, onEdit, onDelete }) => {
   const formatDate = (date: Date) => {
     return new Date(date).toLocaleDateString('en-US', {
       year: 'numeric',

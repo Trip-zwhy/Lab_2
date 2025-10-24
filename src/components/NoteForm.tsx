@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, FC } from 'react';
 import { Note, NoteFormData } from '../types/Note';
 import { X, Tag } from 'lucide-react';
 
@@ -8,7 +8,7 @@ interface NoteFormProps {
   onCancel: () => void;
 }
 
-export const NoteForm: React.FC<NoteFormProps> = ({ note, onSubmit, onCancel }) => {
+export const NoteForm: FC<NoteFormProps> = ({ note, onSubmit, onCancel }) => {
   const [formData, setFormData] = useState<NoteFormData>({
     title: '',
     content: '',

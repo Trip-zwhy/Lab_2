@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { Note, NoteFormData } from './types/Note';
 import { useLocalStorage } from './hooks/useLocalStorage';
 import { createNote, updateNote, searchNotes, sortNotesByDate } from './utils/noteUtils';
